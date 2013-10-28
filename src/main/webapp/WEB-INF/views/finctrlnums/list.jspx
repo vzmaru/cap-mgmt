@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tuc_capacity_entity_mstr_FinCtrlNum" items="${finctrlnums}" z="EEVL0dohuk8KfCPT0TYaanwYIwA=">
+        <table:table data="${finctrlnums}" id="l_com_tuc_capacity_entity_mstr_FinCtrlNum" path="/finctrlnums" z="viszNeGRwk+pK/T5csPBQ/6BhN4=">
+            <table:column id="c_com_tuc_capacity_entity_mstr_FinCtrlNum_sow" property="sow" z="leENZx0JPkU83n1QSD3A6hW/IBA="/>
+            <table:column id="c_com_tuc_capacity_entity_mstr_FinCtrlNum_finCtrlNum" property="finCtrlNum" z="5FfR+GI7xPQRdHzXNILT3RilixE="/>
+        </table:table>
+    </page:list>
+</div>

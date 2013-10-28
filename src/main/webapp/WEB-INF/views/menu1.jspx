@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <!-- 
+        <menu:category id="c_associate" z="Jr26p8aeFa5cCEdyDnXlKti6dBU=">
+            <menu:item id="i_associate_new" messageCode="global_menu_new" url="/associates?form" z="LKG4YAQ5CEsOQxtg3YCOXOmioIc="/>
+            <menu:item id="i_associate_list" messageCode="global_menu_list" url="/associates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QYiOokOCDSiSxxgA8LJ9mcJkbv4="/>
+        </menu:category>
+         -->
+        <menu:category id="c_roster" z="user-managed">
+            <menu:item id="i_roster_upload" messageCode="global_generic" url="/roster/upload?form" z="user-managed"/>
+            <menu:item id="i_roster" messageCode="global_generic" url="/roster?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category render="false" id="c_sow" z="8XhZ08ty8P399VqGCgYGNqUVDhs=">
+            <menu:item id="i_sow_new" messageCode="global_menu_new" url="/sows?form" z="A5JO2RIrpdZSSEScuolQYCZL1og="/>
+            <menu:item id="i_sow_list" messageCode="global_menu_list" url="/sows?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YJo36vrPTTOhnTMlmMHnqAlqT1Q="/>
+        </menu:category>
+        <menu:category render="false" id="c_projectgroup" z="Wc1zypFZhLyJ+vWhhHmasOI6SE0=">
+            <menu:item id="i_projectgroup_new" messageCode="global_menu_new" url="/projectgroups?form" z="+Y9IdrHEkPgfTD6ygoSH2S6fbNg="/>
+            <menu:item id="i_projectgroup_list" messageCode="global_menu_list" url="/projectgroups?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PcPQVhWdTOZv1dCgiaDXgf1tIxA="/>
+        </menu:category>
+        <menu:category render="false" id="c_location" z="RvMgx8apsPylYygCQ4tMBVfulVw=">
+            <menu:item id="i_location_new" messageCode="global_menu_new" url="/locations?form" z="sW8KSnwNnd9wjssI0lLV1kzOguk="/>
+            <menu:item id="i_location_list" messageCode="global_menu_list" url="/locations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VdKLEljpeTLil2W6A3GdWmSBzXI="/>
+        </menu:category>
+        <menu:category render="false" id="c_rate" z="EsRwQbqCssSADhJWlrPP1VRQdS0=">
+            <menu:item id="i_rate_new" messageCode="global_menu_new" url="/rates?form" z="31DRrjGNhP9sbmVwSvbosF0qKz4="/>
+            <menu:item id="i_rate_list" messageCode="global_menu_list" url="/rates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tyWjdI6KiGRR7Xn3jjqQaBLIhoY="/>
+        </menu:category>
+        <menu:category render="false" id="c_tulead" z="W3Ktuggi+LCqpCbDBPu+1HzBcTM=">
+            <menu:item id="i_tulead_new" messageCode="global_menu_new" url="/tuleads?form" z="c95blgJjD9ZMMC7KFGl2jLZQrxM="/>
+            <menu:item id="i_tulead_list" messageCode="global_menu_list" url="/tuleads?page=1&amp;size=${empty param.size ? 10 : param.size}" z="INxIMMuetTNzrDdCYmRWgCxNCTA="/>
+        </menu:category>
+        <menu:category render="false" id="c_projectrole" z="aYbw46LgB+lylzStBaIaIyiftQo=">
+            <menu:item id="i_projectrole_new" messageCode="global_menu_new" url="/projectroles?form" z="3oQlM2Pex9GxpR2dzasdLAoe6ok="/>
+            <menu:item id="i_projectrole_list" messageCode="global_menu_list" url="/projectroles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xvGzHwWCq4OtsDxgHDJTRswKz6U="/>
+        </menu:category>
+        <menu:category render="false" id="c_projecttype" z="vR2vdNY3pJDp6qWEi8Ne/1sSPkk=">
+            <menu:item id="i_projecttype_new" messageCode="global_menu_new" url="/projecttypes?form" z="wxUtrNmiR0w3Bw7LxUF207fIK/0="/>
+            <menu:item id="i_projecttype_list" messageCode="global_menu_list" url="/projecttypes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mMqpBfjs7uhBGyEPORNdEA9iPbc="/>
+        </menu:category>
+        <menu:category render="false" id="c_sowallocation" z="GEpCZwMJAero6EiitXxi8So9WaI=">
+            <menu:item id="i_sowallocation_new" messageCode="global_menu_new" url="/sowallocations?form" z="DR94ema7MAHyjIBFPBO05LbrrSw="/>
+            <menu:item id="i_sowallocation_list" messageCode="global_menu_list" url="/sowallocations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Nt7mfArjehUf9JeeepFOndI0/AY="/>
+        </menu:category>
+        <menu:category render="false" id="c_project" z="u0PzRIwMDmEv/J6b8vbKakXGIdQ=">
+            <menu:item id="i_project_new" messageCode="global_menu_new" url="/projects?form" z="1BazRC1rLnod0a+MpP1flWTvehA="/>
+            <menu:item id="i_project_list" messageCode="global_menu_list" url="/projects?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GHL05c3Rvr+eKDgRCk3Ttak0W+g="/>
+        </menu:category>
+        <menu:category render="false" id="c_finctrlnum" z="4J8MK26H6rwqLwO+wsPPmcOS/14=">
+            <menu:item id="i_finctrlnum_new" messageCode="global_menu_new" url="/finctrlnums?form" z="sysvxLajtItAoyrX6utquMGoupk="/>
+            <menu:item id="i_finctrlnum_list" messageCode="global_menu_list" url="/finctrlnums?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xoLtW3sIDdoy2+4wjSe/ISX2c0k="/>
+        </menu:category>
+        <menu:category render="false" id="c_projectallocation" z="17ZTL6Fs4WKRepdUrNuKokvigEQ=">
+            <menu:item id="i_projectallocation_new" messageCode="global_menu_new" url="/projectallocations?form" z="fnX3RwnSwp1TWyCmF/5xSBfaWmQ="/>
+            <menu:item id="i_projectallocation_list" messageCode="global_menu_list" url="/projectallocations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PUhuH0KcthyzaWTQoMQVoBymBIk="/>
+        </menu:category>
+        <menu:category id="c_associate" z="Jr26p8aeFa5cCEdyDnXlKti6dBU=">
+            <menu:item id="i_associate_new" messageCode="global_menu_new" url="/associates?form" z="LKG4YAQ5CEsOQxtg3YCOXOmioIc="/>
+            <menu:item id="i_associate_list" messageCode="global_menu_list" url="/associates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QYiOokOCDSiSxxgA8LJ9mcJkbv4="/>
+            <menu:item id="fi_associate_eidequals" messageCode="global_menu_find" url="/associates?find=ByEidEquals&amp;form" z="goOcZBbqitXW54A7meIM4vetM+I="/>
+        </menu:category>
+        <menu:category render="false" id="c_skill" z="Iaylqb/Nl/Uig1wNeJAoQWYI/lI=">
+            <menu:item id="i_skill_new" messageCode="global_menu_new" url="/skills?form" z="66VeXO5EeHIFheC8BPoFzxZLQZU="/>
+            <menu:item id="i_skill_list" messageCode="global_menu_list" url="/skills?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RfLHgyoyE4TcMxzNLHeQJdqbP5A="/>
+        </menu:category>
+        <!-- <menu:category id="c_view" z="HjmI4Chx/kBYfS/6HjBLbCA+XpU=">
+            <menu:item id="i_view___roster_uploadupload_id" messageCode="global_generic" url="/roster/upload" z="eY1quIUIRV8XYohqDgsvorP69hg="/>
+        </menu:category>
+         -->
+    </menu:menu>
+</div>

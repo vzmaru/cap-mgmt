@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_tuc_capacity_entity_mstr_Rate" modelAttribute="rate" path="/rates" versionField="Version" z="tBhqaOK2zr5Equr8NPlhoeqNnVE=">
+        <field:input field="name" id="c_com_tuc_capacity_entity_mstr_Rate_name" required="true" z="U86gqCPD1CaD2ImOI5OG2wolIbI="/>
+        <field:input field="rate" id="c_com_tuc_capacity_entity_mstr_Rate_rate" required="true" validationMessageCode="field_invalid_integer" z="uzfgN82aedbZmfVBxOHF0DYUNVs="/>
+    </form:update>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_SowAllocation" object="${sowallocation}" path="/sowallocations" z="2h/GaFplsETh9zq26dyMWa2rzxc=">
+        <field:display field="associate" id="s_com_tuc_capacity_entity_SowAllocation_associate" object="${sowallocation}" z="bDaKDfrPTCo3doye1MCUrcBM9no="/>
+        <field:display field="sow" id="s_com_tuc_capacity_entity_SowAllocation_sow" object="${sowallocation}" z="g4hOs47EZc4lk6OVPaTmvX3DSbA="/>
+        <field:display field="finCtrlNum" id="s_com_tuc_capacity_entity_SowAllocation_finCtrlNum" object="${sowallocation}" z="YFL9Js8u2+h3lLHH+n3W8xJMuok="/>
+    </page:show>
+</div>

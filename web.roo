@@ -1,0 +1,6 @@
+web mvc setup
+web mvc all --package ~.web
+web flow 
+security setup
+// selenium test --controller ~.web.SubscriberController
+// selenium test --controller ~.web.BureauController

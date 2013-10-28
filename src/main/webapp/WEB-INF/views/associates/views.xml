@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="associates/list">
+        <put-attribute name="body" value="/WEB-INF/views/associates/list.jspx"/>
+    </definition>
+<definition extends="default" name="associates/show">
+        <put-attribute name="body" value="/WEB-INF/views/associates/show.jspx"/>
+    </definition>
+<definition extends="default" name="associates/create">
+        <put-attribute name="body" value="/WEB-INF/views/associates/create.jspx"/>
+    </definition>
+<definition extends="default" name="associates/update">
+        <put-attribute name="body" value="/WEB-INF/views/associates/update.jspx"/>
+    </definition>
+<definition extends="default" name="associates/findAssociatesByEidEquals">
+        <put-attribute name="body" value="/WEB-INF/views/associates/findAssociatesByEidEquals.jspx"/>
+    </definition>
+<definition extends="default" name="associates/findAssociatesByEmpIdLike">
+        <put-attribute name="body" value="/WEB-INF/views/associates/findAssociatesByEmpIdLike.jspx"/>
+    </definition>
+<definition extends="default" name="associates/findAssociatesByEmpIdEquals">
+        <put-attribute name="body" value="/WEB-INF/views/associates/findAssociatesByEmpIdEquals.jspx"/>
+    </definition>
+</tiles-definitions>

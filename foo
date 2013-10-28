@@ -1,0 +1,855 @@
+
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7" lang="no"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="no"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="no"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="no">
+<!--<![endif]-->
+<head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1" name="viewport" /><meta name="ROBOTS" content="index,follow" /><meta http-equiv="x-ua-compatible" content="IE=edge" /><meta name="format-detection" content="telephone=no" />
+
+<meta property="og:title" content="" />
+<meta property="og:type" content="company" />
+<meta property="og:url" content="http://sn.no/privat" />
+<meta property="og:site_name" content="Sparebanken Narvik" />
+<meta property="og:description" content="" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://sn.no/privat" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="http://sn.no/~/media/banker/sn/bilder/388x100_sn_logo_liggende.png?w=154&h=154&mode=max" />
+
+
+<meta name="description" content="" />
+<title>
+	Sparebanken Narvik
+</title><link rel="shortcut icon" href="/~/media/fellesbilder/logoer/favicon/narvik.ico" /><link href="http://fonts.googleapis.com/css?family=Expletus+Sans:400,700" rel="stylesheet" type="text/css" /><link href="/Content/webfonts/ss-social-regular.css" rel="stylesheet" /><link href="/Content/webfonts/ss-pika.css" rel="stylesheet" /><link href="/bundle/cssBlue?v=jyVHCDWwHXhMy-XqL0eoRLyhZJz5-nqOnOZD44MxUu81" rel="stylesheet"/>
+<script src="/bundle/js-header?v=0VwPK3cp-BXhcyiSQv4aL9CpKb-RIloinD_bPLqxiY01"></script>
+
+
+    <!--[if lt IE 9]>
+        <script src="/bundle/old-ie-fixes?v=lcgc-F6IpaOEaXbrKlbhTaGH2Zfkj9_EZ82PtCn-_zc1"></script>
+
+    <![endif]-->
+
+    </head>
+<body>
+    <form method="post" action="privat" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMwNTI3NDk1OQ8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgRmD2QWBAIGD2QWAmYPFgIeBFRleHQFElNwYXJlYmFua2VuIE5hcnZpa2QCBw8WAh8BBVM8bGluayByZWw9InNob3J0Y3V0IGljb24iIGhyZWY9Ii9+L21lZGlhL2ZlbGxlc2JpbGRlci9sb2dvZXIvZmF2aWNvbi9uYXJ2aWsuaWNvIiAvPmQCAQ9kFgICAw9kFgJmD2QWAmYPZBYEZg9kFgICAQ9kFgJmD2QWAgIBDxYCHwEF9Qk8ZGl2IGNsYXNzPSJzbGlkZSBzcy1icm93c2VvbmxpbmUgaWNvbiI+PGRpdiBjbGFzcz0iY29udGVudC13cmFwcGVyIj48YSBocmVmPSIvbmItTk8vcHJpdmF0L2JldGFsaW5nL3NlbHZiZXRqZW5pbmcvYXBwLmFzcHgiPjxoMj5BcHAgdGlsIG1vYmlsZW48L2gyPjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJzbGlkZSBzcy1jcmVkaXRjYXJkICBpY29uIj48ZGl2IGNsYXNzPSJjb250ZW50LXdyYXBwZXIiPjxhIGhyZWY9Ii9uYi1OTy9wcml2YXQvYmV0YWxpbmcva29ydC9rcmVkaXR0a29ydC5hc3B4Ij48aDI+S3JlZGl0dGtvcnQ8L2gyPjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJzbGlkZSBzcy1jcmVkaXRjYXJkICBpY29uIj48ZGl2IGNsYXNzPSJjb250ZW50LXdyYXBwZXIiPjxhIGhyZWY9Ii9uYi1OTy9wcml2YXQvYmV0YWxpbmcva29ydC9rb3J0ZGVzaWduLmFzcHgiPjxoMj5WYWxnZnJpdHQga29ydGRlc2lnbjwvaDI+PC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9InNsaWRlIHNzLWNhciBpY29uIj48ZGl2IGNsYXNzPSJjb250ZW50LXdyYXBwZXIiPjxhIGhyZWY9Ii9uYi1OTy9wcml2YXQvbGFhbi9iaWxsYW4vYmlsLWxhYW4uYXNweCI+PGgyPkJpbGzDpW48L2gyPjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJzbGlkZSBzcy1jYXIgaWNvbiI+PGRpdiBjbGFzcz0iY29udGVudC13cmFwcGVyIj48YSBocmVmPSIvbmItTk8vcHJpdmF0L2ZvcnNpa3Jpbmcva2pvcmV0b3kvYmlsLWZvcnNpa3JpbmcuYXNweCI+PGgyPkJpbGZvcnNpa3Jpbmc8L2gyPjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJzbGlkZSBzcy1ob21lIGljb24iPjxkaXYgY2xhc3M9ImNvbnRlbnQtd3JhcHBlciI+PGEgaHJlZj0iL25iLU5PL3ByaXZhdC9sYWFuL2JvbGlnbGFuL2JvbGlnbGFuLmFzcHgiPjxoMj5Cb2xpZ2zDpW48L2gyPjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJzbGlkZSBzcy1ob21lIGljb24iPjxkaXYgY2xhc3M9ImNvbnRlbnQtd3JhcHBlciI+PGEgaHJlZj0iL25iLU5PL3ByaXZhdC9mb3JzaWtyaW5nL2JvbGlnL2JvbGlnLWZvcnNpa3JpbmcuYXNweCI+PGgyPkJvbGlnZm9yc2lrcmluZzwvaDI+PC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9InNsaWRlIHNzLWRlcGFydHVyZSBpY29uIj48ZGl2IGNsYXNzPSJjb250ZW50LXdyYXBwZXIiPjxhIGhyZWY9Ii9uYi1OTy9wcml2YXQvZm9yc2lrcmluZy9yZWlzZS1mb3JzaWtyaW5nLmFzcHgiPjxoMj5SZWlzZSBvZyB1bHlra2U8L2gyPjwvYT48L2Rpdj48L2Rpdj5kAgIPZBYEZg9kFgJmD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIHFg4CAQ9kFgICAQ8PFgIeC05hdmlnYXRlVXJsBSsvb20tb3NzL255aGV0ZXIvMjAxMy9zY2huYWtrZXNrYWxlbmRlcl8yMDE0ZBYCZg8PFgQeCEltYWdlVXJsBVYvfi9tZWRpYS9iYW5rZXIvc24vYmlsZGVyL2thbGVuZGVycmVrYV84MDB4NDAwcHhsLkpQRz93PTMyMiZoPTE2MCZpcm5ldD10cnVlJm1vZGU9Y3JvcB4NQWx0ZXJuYXRlVGV4dAURTnkga2FsZW5kZXIgMjAxNCBkZAICD2QWAgIBDw8WAh8DBS8vb20tb3NzL2thbXBhbmplci9wZW5zam9uZW5fc29tX2VuX292ZXJyYXNrZWxzZWQWAmYPDxYEHwQFUy9+L21lZGlhL2Jhbmtlci9zbi9iaWxkZXIvUEhfcGVuc2pvbl84MDB4NDAwcHguanBnP3c9MzIyJmg9MTYwJmlybmV0PXRydWUmbW9kZT1jcm9wHwUFL1NrYWwgZHUgbGEgcGVuc2pvbmVuIGtvbW1lIHNvbSBlbiBvdmVycmFza2Vsc2U/ZGQCAw9kFgICAQ8PFgIfAwUhL29tLW9zcy9rYW1wYW5qZXIvc3BhcmluZ191bmd0cGFyZBYCZg8PFgQfBAVVL34vbWVkaWEvSW1hZ2VzL0thbXBhbmplL3NwYXJpbmdfdW5ndHBhcl84MDB4NDAwLmpwZz93PTMyMiZoPTE2MCZpcm5ldD10cnVlJm1vZGU9Y3JvcB8FBStJbmdyaWQgb2cgSsO4cmdlbiBmYW50IDExMDAs4oCTIGh2ZXIgbcOlbmVkZGQCBA9kFgICAQ8PFgIfAwUhL29tLW9zcy9rYW1wYW5qZXIvc3BhcmluZ19zZWlsYmF0ZBYCZg8PFgQfBAVSL34vbWVkaWEvSW1hZ2VzL0thbXBhbmplL3NlaWxiJWMzJWE1dF84MDB4NDAwLmpwZz93PTMyMiZoPTE2MCZpcm5ldD10cnVlJm1vZGU9Y3JvcB8FBR1TcGFyaW5nIGVyIHZlcmRlbnMgYmVzdGUgaWTDqWRkAgUPZBYCAgEPDxYCHwMFHC9vbS1vc3MvbnloZXRlci8yMDEzL2JpbGxhYW5kFgJmDw8WBB8EBVYvfi9tZWRpYS9mZWxsZXNiaWxkZXIva2pvcmV0b3kvYmlsX21vdGx5c184MDB4NDAwLmpwZz93PTMyMiZoPTE2MCZpcm5ldD10cnVlJm1vZGU9Y3JvcB8FBRFTw7hrIGJpbGzDpW4gaWRhZ2RkAgYPZBYCAgEPDxYCHwMFFC9vbS1vc3MvYXBwX2dlbmVyZWxsZBYCZg8PFgQfBAVaL34vbWVkaWEvZmVsbGVzYmlsZGVyL2RpZ2l0YWwvbWFubl9tb2JpbF9idXNzXzgwMHg0MDAuanBnP3c9MzIyJmg9MTYwJmlybmV0PXRydWUmbW9kZT1jcm9wHwUFE0xva2FsYmFua2VuIGkgbG9tbWFkZAIHD2QWAgIBDw8WAh8DBRwvb20tb3NzL2thbXBhbmplci9qdW5pb3Jrb3J0ZBYCZg8PFgQfBAVLL34vbWVkaWEvYmFua2VyL3NuL2JpbGRlci9qdW5pb3Jrb3J0ZXQuSlBHP3c9MzIyJmg9MTYwJmlybmV0PXRydWUmbW9kZT1jcm9wHwUFDEp1bmlvcmtvcnRldGRkAgEPZBYCZg9kFgJmD2QWCAICDxYCHgdWaXNpYmxlaGQCAw9kFgJmDxYCHwICARYCZg9kFggCAQ8WAh8BBQZOYXJ2aWtkAgMPFgQfAQUaVGVsZWZvbjogNzYgOTEgMTEgMDA8YnIgLz4fBmdkAgUPFgQfAQU4RS1wb3N0OiA8YSBocmVmPSJtYWlsdG86cG9zdEBzbi5ubyI+cG9zdEBzbi5ubzwvYT48YnIgLz4fBmdkAgcPFgQfAQUVVGVsZWZha3M6IDc2IDkxIDExIDAxHwZnZAIFD2QWAgIBD2QWAmYPFgIfAgIDFgZmD2QWBgIBDxYCHwEFBk5hcnZpa2QCAw8WAh8BBThLb25nZW5zIEdhdGUgMjQ8YnIgLz5Qb3N0Ym9rcyAxMDI8YnIgLz44NTAyIE5hcnZpazxiciAvPmQCBQ8WAh8BBbYEPGg0PsOFcG5pbmdzdGlkZXI6PC9oND48cD5NYW5kYWcgLSBGcmVkYWcga2wgMDk6MDAtMTU6MzA8YnIgLz4NCjxiciAvPg0KPHN0cm9uZz5OZXR0YmFua3N1cHBvcnQ8YnIgLz4NCjwvc3Ryb25nPkh2ZXJkYWdlciBrbCAwODowMCAtIDIxOjAwIDxiciAvPg0KTCZvc2xhc2g7cmRhZ2VyIGtsIDA5OjAwIC0gMTc6MDA8YnIgLz4NClRsZi4gKCs0NyA5MTUpMDM4NTAgPGJyIC8+DQo8YnIgLz4NCjxzdHJvbmc+U2thZGVzZXJ2aWNlPC9zdHJvbmc+IDxiciAvPg0KJkFyaW5nO3BlbnQgMjQgdGltZXIgaSBkJm9zbGFzaDtnbmV0LjxiciAvPg0KVmVkIGZvcnNpa3Jpbmdzc2thZGUgcmluZyBvc3MgcCZhcmluZzsgdGxmLiA2MiA1NSAwNyA3NyA8L3A+DQo8cD48c3Ryb25nPlNwZXJyaW5nIGF2IGtvcnQ6PGJyIC8+DQo8L3N0cm9uZz5TdG9wMjR0IC0gMDM4NTAgKEZyYSB1dGxhbmQgKzQ3IDkxNSAwMzg1MCk8L3A+DQo8cD48c3Ryb25nPlRlbGViYW5rOjwvc3Ryb25nPjxiciAvPg0KODE1IDQ4NDAwPGJyIC8+DQo8YnIgLz4NCjxzdHJvbmc+U21zQmFuazo8YnIgLz4NCjwvc3Ryb25nPjI2MTIwIDwvcD5kAgEPZBYGAgEPFgIfAQUIQmplcmt2aWtkAgMPFgIfAQUpVHJvbGx2aWt2ZWllbiA2IDxiciAvPjg1MzEgQmplcmt2aWs8YnIgLz5kAgUPFgIfAQVIPGg0PsOFcG5pbmdzdGlkZXI6PC9oND48cD5NYW5kYWcgLSBGcmVkYWcga2wgMDk6MDAtMTU6MzAmbmJzcDsmbmJzcDs8L3A+ZAICD2QWBgIBDxYCHwEFCUtqw7hwc3Zpa2QCAw8WAh8BBSNLasO4cHN2aWs8YnIgLz44NTkxIEtqw7hwc3ZpazxiciAvPmQCBQ8WAh8BBT48aDQ+w4VwbmluZ3N0aWRlcjo8L2g0PjxwPk1hbmRhZyAtIEZyZWRhZyBrbCAwOTowMCAtIDE1OjMwPC9wPmQCBg9kFgICAQ8PFgIfBmhkFgJmDxYCHwIC/////w9kZOJPiUyyNlFMPTtIwO1eK/lwzjAWoG6i8cB71hY8Ave0" />
+
+        
+
+<header class="wide-row">
+    <p class="accessibility">
+        <a href="#main-content" role="navigation">Hopp til innholdet</a>
+    </p>
+    <div id="pnlLogoRow" class="row is-bank" class="row">
+	
+	    <hgroup class="twelve columns">
+            <h1>
+                <a id="lnkHomeUrl" accesskey="1" href="/privat"><img src="/~/media/banker/sn/bilder/388x100_sn_logo_liggende.png?h=100" class="is-bank" alt="snlogo" width="388" height="100" /></a>
+            </h1>
+	    </hgroup>
+        <a id="mainmenuToggleButton" href="#" class="icon ss-rows right show-below-mobile-bar-breakpoint">Meny</a>
+    
+</div>
+</header>
+
+<div id="pnlBmPmSwitchMenu" class="wide-row hide-below-mobile-bar-breakpoint hide-for-print">
+	
+    <div class="row">
+        <div class="twelve columns">
+            <ul>
+                <li class="active"><a href="/privat">Privat</a></li>
+                <li ><a href="/bedrift">Bedrift</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div id="mainmenu-wrapper" class="hide-below-mobile-bar-breakpoint wide-row">
+    <div id="mainmenu" class="row">
+        
+        <div class="twelve columns">
+	        <ul role="menu">
+            
+		        <li role="menuitem">
+		            <a href="#" class="has-flyout">Om oss</a>
+		            
+        <div class="fly-out">
+			<div class="row">
+				<div class="twelve columns">
+                    <ul class="block-grid five-up mobile-two-up">        
+                    
+                        <li>
+                            <h2 class="ss-openbook icon"><span>Organisasjon</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/om-oss.aspx">Ansatte</a></li>
+                                
+                                    <li><a href="/nb-NO/om_sparebanken_narvik/historie.aspx">Om Sparebanken Narvik</a></li>
+                                
+                                    <li><a href="/nb-NO/visjon_og_verdier/visjoner_og_verdier.aspx">Visjon og verdier</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-info icon"><span>Aktuelt</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/lag_og_foreninger.aspx">Lag og foreninger</a></li>
+                                
+                                    <li><a href="/nb-NO/om-oss/nyhetsarkiv.aspx">Nyheter</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-adduser icon"><span>Bli kunde</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/bli_kunde.aspx">Bli kunde i Sparebanken Narvik</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-upwardslinechart icon"><span>Investor Relations</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/investor_relations/regnskap.aspx">Rapporter</a></li>
+                                
+                                    <li><a href="/nb-NO/investor_relations/basel_II.aspx">Basel II</a></li>
+                                
+                                    <li><a href="/nb-NO/investor_relations/laan.aspx">Lån</a></li>
+                                
+                                    <li><a href="/nb-NO/investor_relations/firmaattest.aspx">Firmaattest</a></li>
+                                
+                                    <li><a href="/nb-NO/investor_relations/vedtekter.aspx">Vedtekter</a></li>
+                                </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+			</div>
+		</div>        
+    
+		        </li>
+                
+		        <li role="menuitem">
+		            <a href="#" class="has-flyout">Betaling</a>
+		            
+        <div class="fly-out">
+			<div class="row">
+				<div class="twelve columns">
+                    <ul class="block-grid five-up mobile-two-up">        
+                    
+                        <li>
+                            <h2 class="ss-coins icon"><span>Betaling</span></h2>
+                            <ul>
+                                    <li><a href="/privat/betaling/betaling/avtalegiro">Avtalegiro</a></li>
+                                
+                                    <li><a href="/privat/betaling/betaling/efaktura">eFaktura</a></li>
+                                
+                                    <li><a href="/privat/betaling/betaling/utenlandsbetaling">Betaling til utlandet</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-index icon"><span>Konto</span></h2>
+                            <ul>
+                                    <li><a href="/privat/betaling/konto/ungdomskonto">Ungdomskonto (8-18 år)</a></li>
+                                
+                                    <li><a href="/privat/betaling/konto/ubekymra_ung">Ubekymra Ung (18-34 år)</a></li>
+                                
+                                    <li><a href="/privat/betaling/konto/ubekymra">Ubekymra</a></li>
+                                
+                                    <li><a href="/privat/betaling/konto/lonnskonto">Lønnskonto</a></li>
+                                
+                                    <li><a href="/privat/betaling/konto/honnorkonto">Honnørkonto</a></li>
+                                
+                                    <li><a href="/privat/betaling/konto/depositumskonto">Depositumskonto</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-creditcard  icon"><span>Kort</span></h2>
+                            <ul>
+                                    <li><a href="/privat/betaling/kort/bankkort">Bankkort</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/kredittkort">Kredittkort</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/reklamasjon">Reklamasjon</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/verdikort">Verdikort</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/kundeservice">Kundeservice kredittkort</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/kortdesign">Valgfritt kortdesign</a></li>
+                                
+                                    <li><a href="/privat/betaling/kort/sperrekort"></a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-browseonline icon"><span>Selvbetjening</span></h2>
+                            <ul>
+                                    <li><a href="/privat/betaling/selvbetjening/nettbank">Nettbank</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/bankid">BankID og BankID på Mobil</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/mobilbank">MobilBank</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/app">App til mobilen</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/smsvarsling">SMS varsling</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/smsbank">SMS Bank</a></li>
+                                
+                                    <li><a href="/privat/betaling/selvbetjening/kontofon">Kontofon</a></li>
+                                </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+			</div>
+		</div>        
+    
+		        </li>
+                
+		        <li role="menuitem">
+		            <a href="#" class="has-flyout">Lån</a>
+		            
+        <div class="fly-out">
+			<div class="row">
+				<div class="twelve columns">
+                    <ul class="block-grid five-up mobile-two-up">        
+                    
+                        <li>
+                            <h2 class="ss-car icon"><span>Lån til kjøretøy</span></h2>
+                            <ul>
+                                    <li><a href="/privat/laan/billan/bil-laan">Billån</a></li>
+                                
+                                    <li><a href="/privat/laan/billan/kaskofritt-billaan">Billån - Kaskofritt</a></li>
+                                
+                                    <li><a href="/privat/laan/billan/baat-laan">Båtlån</a></li>
+                                
+                                    <li><a href="/privat/laan/billan/mc-laan">MC og ATV lån</a></li>
+                                
+                                    <li><a href="/privat/laan/billan/caravan-laan">Caravanlån</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-home icon"><span>Boliglån</span></h2>
+                            <ul>
+                                    <li><a href="/privat/laan/boliglan/boliglan">Boliglån</a></li>
+                                
+                                    <li><a href="/privat/laan/boliglan/boligkreditt">Eika Boligkreditt</a></li>
+                                
+                                    <li><a href="/privat/laan/boliglan/ubekymra_ung">Ubekymra Ung</a></li>
+                                
+                                    <li><a href="/privat/laan/boliglan/byggelaan">Byggelån</a></li>
+                                
+                                    <li><a href="/privat/laan/boliglan/valutalaan">Valutalån</a></li>
+                                </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+			</div>
+		</div>        
+    
+		        </li>
+                
+		        <li role="menuitem">
+		            <a href="#" class="has-flyout">Forsikring</a>
+		            
+        <div class="fly-out">
+			<div class="row">
+				<div class="twelve columns">
+                    <ul class="block-grid five-up mobile-two-up">        
+                    
+                        <li>
+                            <h2 class="ss-stethoscope icon"><span>Personforsikring</span></h2>
+                            <ul>
+                                    <li><a href="/privat/forsikring/person/barn-ungdom-forsikring">Barne- og ungdomsforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/person/dodsfall-forsikring">Dødsfall</a></li>
+                                
+                                    <li><a href="/privat/forsikring/person/sykdom-forsikring">Sykdom</a></li>
+                                
+                                    <li><a href="/privat/forsikring/person/uforhet-forsikring">Uføreforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/person/vedskade-forsikring">Ved skade</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-home icon"><span>Boligforsikring</span></h2>
+                            <ul>
+                                    <li><a href="/privat/forsikring/bolig/bolig-forsikring">Boligforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/bolig/fritidsbolig-forsikring">Fritidsbolig</a></li>
+                                
+                                    <li><a href="/privat/forsikring/bolig/innboforsikring">Innboforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/bolig/verdigjenstad-forsikring">Verdigjenstand</a></li>
+                                
+                                    <li><a href="/privat/forsikring/bolig/elkontroll"></a></li>
+                                
+                                    <li><a href="/privat/forsikring/bolig/sikkerhet">Sikkerhet i hjemmet</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-car icon"><span>Kjøretøy</span></h2>
+                            <ul>
+                                    <li><a href="/privat/forsikring/kjoretoy/bil-forsikring">Bilforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/kjoretoy/bat-forsikring">Båtforsikring</a></li>
+                                
+                                    <li><a href="/privat/forsikring/kjoretoy/kjoretoy-forsikring">Kjøretøy</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-departure icon"><span>Reise</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/privat/forsikring/reise-forsikring.aspx">Reiseforsikring</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-flame icon"><span>Ved skade</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/privat/forsikring/ved_skade/skadepersonforsikring.aspx">Personforsikring</a></li>
+                                
+                                    <li><a href="/nb-NO/privat/forsikring/ved_skade/skadeprivat.aspx">Skadeforsikring</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-usergroup icon"><span>Ungdom</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/privat/forsikring/ungdom-forsikring.aspx">Ungdomspakken</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-fish icon"><span>Dyr</span></h2>
+                            <ul>
+                                    <li><a href="/nb-NO/privat/forsikring/dyr-forsikring.aspx">Hest, hund og katt</a></li>
+                                </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+			</div>
+		</div>        
+    
+		        </li>
+                
+		        <li role="menuitem">
+		            <a href="#" class="has-flyout">Sparing</a>
+		            
+        <div class="fly-out">
+			<div class="row">
+				<div class="twelve columns">
+                    <ul class="block-grid five-up mobile-two-up">        
+                    
+                        <li>
+                            <h2 class="ss-piggybank icon"><span>Sparing</span></h2>
+                            <ul>
+                                    <li><a href="/privat/sparing/banksparing/barnespar">Barnespar</a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/bsu">BSU </a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/bsu_xtra">BSU Xtra</a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/kapitalkonto">Kapitalkonto</a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/spar_xtra">Spar Xtra</a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/fastrenteinnskudd"></a></li>
+                                
+                                    <li><a href="/privat/sparing/banksparing/pensjonskonto">Pensjonskonto</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-upwardslinechart icon"><span>Investering</span></h2>
+                            <ul>
+                                    <li><a href="/privat/sparing/investering/fond">Fond</a></li>
+                                
+                                    <li><a href="/privat/sparing/investering/aksjer">Aksjer</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-palmtree icon"><span>Pensjon</span></h2>
+                            <ul>
+                                    <li><a href="/privat/sparing/pensjon/pensjonsparing">Pensjon</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                            <h2 class="ss-desktop icon"><span>VPS Investortjenester</span></h2>
+                            <ul>
+                                    <li><a href="https://investor.vps.no/vit/servlet/no.vps.investorclient.servlets.LogonServlet?TSted=04520&CDIdent=04520&avtalehaver=04520">Logg inn VPS Investortjenester</a></li>
+                                </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+			</div>
+		</div>        
+    
+		        </li>
+                
+             </ul>
+        </div>        
+    
+        <div id="mainmenu_searchbox" class="three columns">
+            <input type="text" id="searchField" value="Søk" />
+            <button id="searchSite" title="Søk" class="button ss-search"></button>
+            <input name="ctl12$ctl00$siteSearchUrl" type="hidden" id="siteSearchUrl" value="/nb-NO/om-oss/sok.aspx?sok=" />
+            <input type="hidden" id="siteSearchPlaceholderText" value="Søk"/>
+        </div>
+    </div><!-- #mainmenu -->
+
+    <div id="mainmenu-dropdown" tabindex="0"></div>
+</div><!-- #mainmenu-wrapper -->
+
+
+
+
+
+
+<div id="login-area">
+    <img id="imgFrontpageBackground" data-src="/~/media/banker/sn/bilder/gondol_1600x416.jpg" data-src-mobile="/~/media/banker/sn/bilder/gondol_767x400.jpg" src="" />
+
+    <div id="login-area-content">
+        <div class="wrapper">
+            <a id="loginLink" class="button login-button" href="https://www2.portalbank.no/wsl/slogin/Run?n_bank=4520">Logg inn</a>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+        <section id="main-content" role="main">
+            
+
+
+<div id="product-bar">
+    <div class="prev">
+        <img src="/Images/Icons/arrow-left.png" alt="" />
+    </div>
+    <div class="next">
+        <img src="/Images/Icons/arrow-right.png" alt="" />
+    </div>
+    <div class="iosSlider">
+        <div class="slider">
+            <div class="slide ss-browseonline icon"><div class="content-wrapper"><a href="/nb-NO/privat/betaling/selvbetjening/app.aspx"><h2>App til mobilen</h2></a></div></div><div class="slide ss-creditcard  icon"><div class="content-wrapper"><a href="/nb-NO/privat/betaling/kort/kredittkort.aspx"><h2>Kredittkort</h2></a></div></div><div class="slide ss-creditcard  icon"><div class="content-wrapper"><a href="/nb-NO/privat/betaling/kort/kortdesign.aspx"><h2>Valgfritt kortdesign</h2></a></div></div><div class="slide ss-car icon"><div class="content-wrapper"><a href="/nb-NO/privat/laan/billan/bil-laan.aspx"><h2>Billån</h2></a></div></div><div class="slide ss-car icon"><div class="content-wrapper"><a href="/nb-NO/privat/forsikring/kjoretoy/bil-forsikring.aspx"><h2>Bilforsikring</h2></a></div></div><div class="slide ss-home icon"><div class="content-wrapper"><a href="/nb-NO/privat/laan/boliglan/boliglan.aspx"><h2>Boliglån</h2></a></div></div><div class="slide ss-home icon"><div class="content-wrapper"><a href="/nb-NO/privat/forsikring/bolig/bolig-forsikring.aspx"><h2>Boligforsikring</h2></a></div></div><div class="slide ss-departure icon"><div class="content-wrapper"><a href="/nb-NO/privat/forsikring/reise-forsikring.aspx"><h2>Reise og ulykke</h2></a></div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="article-bar">
+    <div class="prev">
+        <img src="/Images/Icons/arrow-left.png" alt="" />
+    </div>
+    <div class="next">
+        <img src="/Images/Icons/arrow-right.png" alt="" />
+    </div>
+    <div class="iosSlider">
+        
+                <div class="slider">
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_0" href="/om-oss/nyheter/2013/schnakkeskalender_2014"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_0" src="/~/media/banker/sn/bilder/kalenderreka_800x400pxl.JPG?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Ny kalender 2014 " />
+                            <h2>
+                                Ny kalender 2014 
+                            </h2>
+                        </a>
+                        <p>- vinn en iPad</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_1" href="/om-oss/kampanjer/pensjonen_som_en_overraskelse"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_1" src="/~/media/banker/sn/bilder/PH_pensjon_800x400px.jpg?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Skal du la pensjonen komme som en overraskelse?" />
+                            <h2>
+                                Skal du la pensjonen komme som en overraskelse?
+                            </h2>
+                        </a>
+                        <p>De aller fleste av oss har drømmer og ønsker om hva vi skal gjøre når vi blir pensjonister. For å kunne realisere disse drømmene trenger vi som regel penger til å gjennomføre dem.</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_2" href="/om-oss/kampanjer/sparing_ungtpar"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_2" src="/~/media/Images/Kampanje/sparing_ungtpar_800x400.jpg?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Ingrid og Jørgen fant 1100,– hver måned" />
+                            <h2>
+                                Ingrid og Jørgen fant 1100,– hver måned
+                            </h2>
+                        </a>
+                        <p>Sparing er verdens beste idé. Les om hvordan vi hjelper deg med å finne penger du ikke engang visste du hadde.</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_3" href="/om-oss/kampanjer/sparing_seilbat"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_3" src="/~/media/Images/Kampanje/seilb%c3%a5t_800x400.jpg?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Sparing er verdens beste idé" />
+                            <h2>
+                                Sparing er verdens beste idé
+                            </h2>
+                        </a>
+                        <p>Fordi hva du drømmer om i dag kan være noe annet om ti år. Les om hvordan vi hjelper deg med å finne penger du ikke engang visste du hadde.</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_4" href="/om-oss/nyheter/2013/billaan"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_4" src="/~/media/fellesbilder/kjoretoy/bil_motlys_800x400.jpg?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Søk billån idag" />
+                            <h2>
+                                Søk billån idag
+                            </h2>
+                        </a>
+                        <p>Søk lån på nett og få svar innen 24 timer. Du kan signere alt elektronisk.</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_5" href="/om-oss/app_generell"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_5" src="/~/media/fellesbilder/digital/mann_mobil_buss_800x400.jpg?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Lokalbanken i lomma" />
+                            <h2>
+                                Lokalbanken i lomma
+                            </h2>
+                        </a>
+                        <p>Ta med deg banken hvor enn du er.</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <div class="content-wrapper">
+                        <a id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleLink_6" href="/om-oss/kampanjer/juniorkort"><img id="phmastercenter_0_phlayer2_0_ArticleBarRepeater_articleImage_6" src="/~/media/banker/sn/bilder/juniorkortet.JPG?w=322&amp;h=160&amp;irnet=true&amp;mode=crop" alt="Juniorkortet" />
+                            <h2>
+                                Juniorkortet
+                            </h2>
+                        </a>
+                        <p>Nå kan barn under 13 år få eget bankkort som er trygt å bruke. Dere kan velge mellom 3 forskjellige motiver på kortet. Ta med ditt barn ned i banken og bestill i dag.<br/></p>
+                    </div>
+                </div>
+            
+                </div>
+            
+    </div>
+</div>
+
+
+<div class="wide-row">
+    <div class="row">
+        <div class="twelve columns">
+            <div id="contact-bar" class="tabs-container">
+                <dl role="tablist">
+                    <dd class="ss-headset icon" id="tabLinkContactUs" role="tab"><a href="#ContactUs">Kontakt oss</a></dd>
+                    <dd id="tabLinkSendUsAMessage" class="ss-chat icon" role="tab"><a href="#SendUsAMessage">Send oss en melding</a></dd>
+                    <dd id="tabLinkAddress" class="ss-chat icon" role="tab"><a href="#Address">Adresse</a></dd>
+                    
+	            </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ul id="contact-bar-content" class="tabs-content">
+    <li id="ContactUsTab" aria-labelledby="ContactUs" aria-hidden="true">
+        <div class="wide-row">
+            <div class="row dkf-grid-list">
+                
+        <div class="four tablet-six columns dkf-grid-list-item">
+            <div class="text-content">
+                <h3>Narvik</h3>
+                <p>
+                    Telefon: 76 91 11 00<br />
+                    E-post: <a href="mailto:post@sn.no">post@sn.no</a><br />
+                    Telefaks: 76 91 11 01
+                </p>
+            </div>
+        </div>
+    
+
+            </div>
+        </div>
+    </li>
+    <li id="SendUsAMessageTab" aria-labelledby="SendUsAMessage" aria-hidden="true">
+        
+
+<div class="wide-row contact-form" role="application" >
+    <div class="row">
+        <div class="twelve columns">
+            <p class="form-text">Spør oss om hva som helst, vi svarer vanligvis på timen.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <label id="contactNameLabel" for="contactName">Ditt navn:</label>
+            <input type="text" id="contactName" class="contactName form-input" placeholder="Skriv inn ditt navn" required="required" aria-required="true" aria-labelledby="contactNameLabel" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <label id="contactMessageLabel" for="contactMessage">Din melding:</label>
+            <textarea id="contactMessage" class="contactMessage form-input" rows="10" placeholder="Skriv her..." required="required" aria-required="true" aria-labelledby="contactMessageLabel"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label id="contactPhoneLabel" for="contactPhone">Ring meg på telefon:</label>
+            <input type="tel" id="contactPhone" class="contactPhone form-input" placeholder="123 45 678" required="required" aria-required="true" aria-labelledby="contactPhoneLabel" />
+        </div>
+        <div class="six columns">
+            <label id="contactEmailLabel" for="contactEmail">... eller send svar på e-post til:</label>
+            <input type="email" id="contactEmail" class="contactEmail form-input" placeholder="eksempel@domene.no" aria-labelledby="contactEmailLabel" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <input type="hidden" class="companyEmail" value="mailto:post@sn.no"/>
+            <input type="hidden" class="companyId" value="a8c5b263-2bb8-4ca3-b7cc-57ea0d025d9a"/>
+            <input type="hidden" class="companyEmailConfirmationMessage" value="Vi har mottatt din melding og vil behandle den så raskt vi kan!"/>
+            <input type="button" class="button contactSubmit" value="Send meldingen" />
+        </div>
+    </div>
+</div>
+
+    </li>
+    <li id="AddressTab" aria-labelledby="Address" aria-hidden="true">
+        <div class="wide-row">
+            <div class="row dkf-grid-list">
+                
+        <div class="four tablet-six columns dkf-grid-list-item">
+            <div class="text-content">
+                <h3>Narvik</h3>
+                <p>
+                    Kongens Gate 24<br />Postboks 102<br />8502 Narvik<br />
+                </p>
+                <p>
+                    <h4>Åpningstider:</h4><p>Mandag - Fredag kl 09:00-15:30<br />
+<br />
+<strong>Nettbanksupport<br />
+</strong>Hverdager kl 08:00 - 21:00 <br />
+L&oslash;rdager kl 09:00 - 17:00<br />
+Tlf. (+47 915)03850 <br />
+<br />
+<strong>Skadeservice</strong> <br />
+&Aring;pent 24 timer i d&oslash;gnet.<br />
+Ved forsikringsskade ring oss p&aring; tlf. 62 55 07 77 </p>
+<p><strong>Sperring av kort:<br />
+</strong>Stop24t - 03850 (Fra utland +47 915 03850)</p>
+<p><strong>Telebank:</strong><br />
+815 48400<br />
+<br />
+<strong>SmsBank:<br />
+</strong>26120 </p>
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+            
+        </div>
+    
+        <div class="four tablet-six columns dkf-grid-list-item">
+            <div class="text-content">
+                <h3>Bjerkvik</h3>
+                <p>
+                    Trollvikveien 6 <br />8531 Bjerkvik<br />
+                </p>
+                <p>
+                    <h4>Åpningstider:</h4><p>Mandag - Fredag kl 09:00-15:30&nbsp;&nbsp;</p>
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+            
+        </div>
+    
+        <div class="four tablet-six columns dkf-grid-list-item">
+            <div class="text-content">
+                <h3>Kjøpsvik</h3>
+                <p>
+                    Kjøpsvik<br />8591 Kjøpsvik<br />
+                </p>
+                <p>
+                    <h4>Åpningstider:</h4><p>Mandag - Fredag kl 09:00 - 15:30</p>
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+            
+        </div>
+    
+            </div>
+        </div>
+    </li>
+    <li id="ManagementTab" aria-labelledby="Management" aria-hidden="true">
+        <div class="wide-row">
+            <div class="row dkf-grid-list">
+                
+            </div>
+        </div>
+    </li>
+</ul>
+
+
+        </section>
+        <footer id="footer" role="complementary" class="shadow-box is-bank">
+    <div class="wide-row">
+        <div class="row">
+            <div class="content-wrapper">
+                
+              
+                        <div id="pnlFooterMenu" role="navigation">
+                            <ul>
+                    
+                        <li role="menuitem">
+                            <a id="footerMenuItem" href="/om-oss">Om oss</a>   
+                        </li>        
+                    
+                        <li role="menuitem">
+                            <a id="footerMenuItem" href="/om-oss">Ansatte</a>   
+                        </li>        
+                    
+                        <li role="menuitem">
+                            <a id="footerMenuItem" href="/om-oss/prislister">Prislister</a>   
+                        </li>        
+                    
+                        <li role="menuitem">
+                            <a id="footerMenuItem" href="/om-oss/nyhetsarkiv">Nyheter</a>   
+                        </li>        
+                    
+                        </ul>
+                        </div>
+                    
+
+                
+                        <div class="address-wrapper">
+                    
+                        <div>
+                            <p>
+                                <strong>Narvik</strong><br />
+                                Kongens Gate 24, 8502 Narvik<br />
+                                Telefon: <a href="tel:76911100">76 91 11 00</a><br />
+                                Telefaks: 76 91 11 01<br />
+                                
+                            </p>
+                        </div>                    
+                    
+                        <div>
+                            <p>
+                                <strong>Bjerkvik</strong><br />
+                                Trollvikveien 6 , 8531 Bjerkvik<br />
+                                Telefon: <a href="tel:76911100">76 91 11 00</a><br />
+                                Telefaks: 76 91 12 01<br />
+                                
+                            </p>
+                        </div>                    
+                    
+                        <div>
+                            <p>
+                                <strong>Kjøpsvik</strong><br />
+                                Kjøpsvik, 8591 Kjøpsvik<br />
+                                Telefon: <a href="tel:76911100">76 91 11 00</a><br />
+                                Telefaks: 76 91 11 91<br />
+                                
+                            </p>
+                        </div>                    
+                    
+                        </div>
+                    
+            </div>
+
+            <div id="pnlSocialMedia" class="social-media-wrapper">
+	
+                <div>
+                    <span class="label">Følg oss på</span>
+                    
+                    
+                    
+                    <span><a href="http://www.facebook.com/Sparebanken.Narvik" target="_blank" class="ss-facebook"></a></span>
+                    
+                </div>
+            
+</div>
+        </div>
+                
+        <div class="row">
+	        <div class="twelve columns">
+	            <ul class="block-grid six-up tablet-four-up mobile-two-up">
+	                <li><strong>Orgnr.</strong><br />937903979</li>
+                    <li><strong>SWIFT</strong><br />NARVNO21</li>
+	            </ul>
+	        </div>
+        </div>
+        
+    </div>
+
+    <div class="bottom-row">
+        <div class="wide-row">
+            <div class="row">
+                <div class="six mobile-two columns copyright">
+                    2013 &copy; Sparebanken Narvik
+                </div>
+                <div class="six tablet-six hide-below-mobile-bar-breakpoint columns text-right">
+                    En lokalbank i Eika Alliansen
+                </div>
+                
+                <a id="companyLink" href="http://eika.no"><img src="/Images/eika-logo.png" alt="" /></a>             
+            </div>
+        </div>
+    </div>
+</footer>
+    </form>
+
+    <script>
+        Modernizr.load([
+            {
+                test: window.matchMedia,
+                nope: "/Scripts/eika/libs/matchMedia.js"
+            },
+            "/Scripts/eika/libs/enquire.min.js",
+            "/Scripts/eika/eika.min.js"
+        ]);
+    </script>
+
+    <script src="/bundle/js-portaltexts-nb-NO?v=4wUlccJpeef85z7k45j47EIbh4G3Fek37MaxOf5Tqvs1"></script>
+
+    <script src="/bundle/js-footer?v=TEtcSlu50A54I7uDXVHjNXIiS0tFoHYd1unHfosJJIA1"></script>
+
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7041614-1']);
+        _gaq.push(['_setDomainName', document.location.hostname]);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

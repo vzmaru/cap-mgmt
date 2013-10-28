@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_Associate" object="${associate}" path="/associates" z="MBf/3S00NJE2Re/P4LssLG65HjM=">
+        <field:display field="eid" id="s_com_tuc_capacity_entity_Associate_eid" object="${associate}" z="6c8dVDmtnHqrefMt18H7q0OjCto="/>
+        <field:display field="empId" id="s_com_tuc_capacity_entity_Associate_empId" object="${associate}" z="oVfO3ctjW/Gbpa8MJaoT8FbiCx8="/>
+        <field:display field="name" id="s_com_tuc_capacity_entity_Associate_name" object="${associate}" z="tUCcjcJoY2U/e9b2AyoLk7uVLsk="/>
+        <field:display field="skills" id="s_com_tuc_capacity_entity_Associate_skills" object="${associate}" z="xbRTtdeoT+4NM9e+9MpB98LTfoA="/>
+        <field:display field="status" id="s_com_tuc_capacity_entity_Associate_status" object="${associate}" z="I3nb2VVtqTNuiNeDq9WrNw/ISn4="/>
+    </page:show>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_mstr_Skill" object="${skill}" path="/skills" z="8f30ECnz22ViS6JHB5HTA4ImMTE=">
+        <field:display field="skillName" id="s_com_tuc_capacity_entity_mstr_Skill_skillName" object="${skill}" z="169FhP58Kv8xiPijZriiPz/TTy0="/>
+    </page:show>
+</div>

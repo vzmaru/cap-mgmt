@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tuc_capacity_entity_Project" items="${projects}" z="EWL486aUYqXRj9IAqRhjoJiVWEc=">
+        <table:table data="${projects}" id="l_com_tuc_capacity_entity_Project" path="/projects" z="L1/W51C6Y9LWxuXVhoHJsnNTe6c=">
+            <table:column id="c_com_tuc_capacity_entity_Project_name" property="name" z="R6Xcnt5QRBZ+wVGtOkPKw4yBD8c="/>
+            <table:column id="c_com_tuc_capacity_entity_Project_prjGroup" property="prjGroup" z="UhhvjYpS1o6xuRKA9cL1CbXbG64="/>
+            <table:column id="c_com_tuc_capacity_entity_Project_lead" property="lead" z="wunmr35nOr78kmlLAOeIm60b048="/>
+            <table:column id="c_com_tuc_capacity_entity_Project_subLead" property="subLead" z="OPWvDdCLc+z+Tv2DqqOHoTgA54I="/>
+            <table:column id="c_com_tuc_capacity_entity_Project_type" property="type" z="2l6Mq8d4MZDyZRU/S0pCWULO6z8="/>
+            <table:column id="c_com_tuc_capacity_entity_Project_manager" property="manager" z="rGKgKAGmUVsX9Ub9tL1vU34ymrc="/>
+        </table:table>
+    </page:list>
+</div>

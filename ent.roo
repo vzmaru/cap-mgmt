@@ -1,0 +1,73 @@
+//Masters
+// Associate Skills
+entity jpa --class ~.entity.mstr.Skill --testAutomatically
+field string --fieldName skillName --notNull 
+
+// Associate
+entity jpa --class ~.entity.Associate --testAutomatically
+field string --fieldName eid --notNull 
+field string --fieldName empId --notNull 
+field string --fieldName name --notNull 
+field set --fieldName skills --type ~.entity.mstr.Skill 
+field string --fieldName status
+
+// TU Lead
+entity jpa --class ~.entity.TuLead --testAutomatically 
+field string --fieldName name --notNull 
+
+// Project group
+entity jpa --class ~.entity.ProjectGroup --testAutomatically 
+field string --fieldName name --notNull 
+field reference --fieldName lead --type ~.entity.TuLead --notNull 
+
+// Project Type
+entity jpa --class ~.entity.mstr.ProjectType --testAutomatically 
+field string --fieldName type --notNull 
+
+// Location
+entity jpa --class ~.entity.mstr.Location --testAutomatically 
+field string --fieldName location --notNull 
+
+// Project
+entity jpa --class ~.entity.Project --testAutomatically 
+field string --fieldName name --notNull 
+field reference --fieldName prjGroup --type ~.entity.ProjectGroup --notNull 
+field reference --fieldName lead --type ~.entity.TuLead --notNull 
+field reference --fieldName subLead --type ~.entity.TuLead --notNull 
+field reference --fieldName manager --type ~.entity.TuLead --notNull 
+field reference --fieldName type --type ~.entity.mstr.ProjectType --notNull 
+
+//Role
+entity jpa --class ~.entity.mstr.ProjectRole --testAutomatically
+field string --fieldName roleName --notNull 
+
+// Rate
+entity jpa --class ~.entity.mstr.Rate --testAutomatically 
+field string --fieldName name --notNull 
+field number --fieldName rate --type java.lang.Integer --notNull 
+
+// Project Allocation
+entity jpa --class ~.entity.ProjectAllocation --testAutomatically 
+field reference --fieldName associate --type ~.entity.Associate --notNull 
+field reference --fieldName project --type ~.entity.Project --notNull 
+field reference --fieldName prjRole --type ~.entity.mstr.ProjectRole 
+field reference --fieldName rate --type ~.entity.mstr.Rate --notNull 
+field reference --fieldName location --type ~.entity.mstr.Location --notNull 
+field date --fieldName startDate --type java.util.Date --notNull 
+field date --fieldName endDate --type java.util.Date --notNull 
+
+// SOW
+entity jpa --class ~.entity.Sow --testAutomatically 
+field string --fieldName sowNum --notNull 
+field string --fieldName description --notNull 
+
+// Fin Ctrl
+entity jpa --class ~.entity.mstr.FinCtrlNum --testAutomatically 
+field reference --fieldName sow --type ~.entity.Sow --notNull 
+field string --fieldName finCtrlNum --notNull 
+
+// SOW Allocation
+entity jpa --class ~.entity.SowAllocation --testAutomatically 
+field reference --fieldName associate --type ~.entity.Associate --notNull 
+field reference --fieldName sow --type ~.entity.Sow --notNull 
+field reference --fieldName finCtrlNum --type ~.entity.mstr.FinCtrlNum --notNull 

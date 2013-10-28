@@ -1,0 +1,3 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-05 00:09:35
+project --topLevelPackage com.tuc.capacity --projectName cap-mgmt --java 6 --packaging WAR
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 

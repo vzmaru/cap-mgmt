@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tuc_capacity_entity_ProjectAllocation" items="${projectallocations}" z="Vw/Jls4KZNj9WQ4jvWIzCJfGZaw=">
+        <table:table data="${projectallocations}" id="l_com_tuc_capacity_entity_ProjectAllocation" path="/projectallocations" z="tBy4uuY3VTlHZwx0ToL76UcYRSw=">
+            <table:column id="c_com_tuc_capacity_entity_ProjectAllocation_associate" property="associate" z="vOjEnff3i0t7iBZpsmhpEzhgE8Y="/>
+            <table:column id="c_com_tuc_capacity_entity_ProjectAllocation_project" property="project" z="hzmvRYUYc0rw7aaMcfkU4pgQcUg="/>
+            <table:column id="c_com_tuc_capacity_entity_ProjectAllocation_rate" property="rate" z="u11o57fbMeDSfJQaLJwf+FSFW0k="/>
+            <table:column id="c_com_tuc_capacity_entity_ProjectAllocation_location" property="location" z="NQ18qtBPK+FTEQcPjXaUySyfafw="/>
+            <table:column date="true" dateTimePattern="${projectAllocation_startdate_date_format}" id="c_com_tuc_capacity_entity_ProjectAllocation_startDate" property="startDate" z="g47k5OZlQXn61YDbL/ZrpZhypOU="/>
+            <table:column id="c_com_tuc_capacity_entity_ProjectAllocation_prjRole" property="prjRole" z="85r4EcgV6CMTQX4fdRzsZTchGBc="/>
+        </table:table>
+    </page:list>
+</div>

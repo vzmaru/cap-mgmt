@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_mstr_FinCtrlNum" object="${finctrlnum}" path="/finctrlnums" z="qoOO4u4cmCURUac/SKT8Og5f5zo=">
+        <field:display field="sow" id="s_com_tuc_capacity_entity_mstr_FinCtrlNum_sow" object="${finctrlnum}" z="RLloPzLjBUpPAASI8aIVUdv4q+U="/>
+        <field:display field="finCtrlNum" id="s_com_tuc_capacity_entity_mstr_FinCtrlNum_finCtrlNum" object="${finctrlnum}" z="PcUCvl+pv07kyL06oE74bEax/pk="/>
+    </page:show>
+</div>

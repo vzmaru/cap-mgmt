@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="sowallocations/list">
+        <put-attribute name="body" value="/WEB-INF/views/sowallocations/list.jspx"/>
+    </definition>
+<definition extends="default" name="sowallocations/show">
+        <put-attribute name="body" value="/WEB-INF/views/sowallocations/show.jspx"/>
+    </definition>
+<definition extends="default" name="sowallocations/create">
+        <put-attribute name="body" value="/WEB-INF/views/sowallocations/create.jspx"/>
+    </definition>
+<definition extends="default" name="sowallocations/update">
+        <put-attribute name="body" value="/WEB-INF/views/sowallocations/update.jspx"/>
+    </definition>
+</tiles-definitions>

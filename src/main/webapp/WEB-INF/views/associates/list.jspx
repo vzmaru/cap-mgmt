@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_tuc_capacity_entity_Associate" items="${associates}" z="HOsF3K4akF/BfvjbRLXsu6ShlZE=">
+        <table:table data="${associates}" id="l_com_tuc_capacity_entity_Associate" path="/associates" z="eoX/ZJOecHiG1mYo/XMkmYICeRY=">
+            <table:column id="c_com_tuc_capacity_entity_Associate_eid" property="eid" z="t0R0cJBmQpj7dWQnoXir6z/2r9o="/>
+            <table:column id="c_com_tuc_capacity_entity_Associate_empId" property="empId" z="CuuHYjPtnMtnjFCr0iI804dpKFs="/>
+            <table:column id="c_com_tuc_capacity_entity_Associate_name" property="name" z="y1rWabqbDegYX7vrueL7SI1IC7Y="/>
+            <table:column id="c_com_tuc_capacity_entity_Associate_skills" property="skills" z="XAZylhRB9qJmaDSqJl9G8mL8Fls="/>
+            <table:column id="c_com_tuc_capacity_entity_Associate_status" property="status" z="LPTbgcEqGbASXpPWIzZyicFf6j8="/>
+        </table:table>
+    </page:list>
+</div>

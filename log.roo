@@ -1,0 +1,227 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-10 14:05:51
+project --topLevelPackage com.tuc.capacity --projectName cap-mgmt --java 6 --packaging WAR
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+// script --file prj.roo
+entity jpa --class ~.entity.mstr.ProjectRole --testAutomatically
+field string --fieldName roleName --notNull 
+entity jpa --class ~.entity.mstr.Skill --testAutomatically
+field string --fieldName skillName --notNull 
+entity jpa --class ~.entity.Associate --testAutomatically
+field string --fieldName eid --notNull 
+field string --fieldName empId --notNull 
+field string --fieldName name --notNull 
+field reference --fieldName prjRole --type ~.entity.mstr.ProjectRole 
+field set --fieldName skills --type ~.entity.mstr.Skill 
+field string --fieldName status
+entity jpa --class ~.entity.TuLead --testAutomatically 
+field string --fieldName name --notNull 
+entity jpa --class ~.entity.ProjectGroup --testAutomatically 
+field string --fieldName name --notNull 
+field reference --fieldName lead --type ~.entity.TuLead --notNull 
+entity jpa --class ~.entity.mstr.ProjectType --testAutomatically 
+field string --fieldName type --notNull 
+entity jpa --class ~.entity.mstr.Location --testAutomatically 
+field string --fieldName location --notNull 
+entity jpa --class ~.entity.Project --testAutomatically 
+field string --fieldName name --notNull 
+field reference --fieldName prjGroup --type ~.entity.ProjectGroup --notNull 
+field reference --fieldName lead --type ~.entity.TuLead --notNull 
+field reference --fieldName subLead --type ~.entity.TuLead --notNull 
+field reference --fieldName type --type ~.entity.mstr.ProjectType --notNull 
+entity jpa --class ~.entity.mstr.Rate --testAutomatically 
+field string --fieldName name --notNull 
+field number --fieldName rate --type java.lang.Integer --notNull 
+entity jpa --class ~.entity.ProjectAllocation --testAutomatically 
+field reference --fieldName associate --type ~.entity.Associate --notNull 
+field reference --fieldName project --type ~.entity.Project --notNull 
+field reference --fieldName rate --type ~.entity.mstr.Rate --notNull 
+field reference --fieldName location --type ~.entity.mstr.Location --notNull 
+field date --fieldName startDate --type java.util.Date --notNull 
+field date --fieldName endDate --type java.util.Date --notNull 
+entity jpa --class ~.entity.Sow --testAutomatically 
+field string --fieldName sowNum --notNull 
+field string --fieldName description --notNull 
+entity jpa --class ~.entity.mstr.FinCtrlNum --testAutomatically 
+field reference --fieldName sow --type ~.entity.Sow --notNull 
+field string --fieldName finCtrlNum --notNull 
+entity jpa --class ~.entity.SowAllocation --testAutomatically 
+field reference --fieldName associate --type ~.entity.Associate --notNull 
+field reference --fieldName sow --type ~.entity.Sow --notNull 
+field reference --fieldName finCtrlNum --type ~.entity.mstr.FinCtrlNum --notNull 
+// script --file ent.roo
+web mvc setup
+web mvc all --package ~.web
+web flow 
+security setup
+// script --file web.roo
+perform tests
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-10 14:07:50
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-10 14:12:23
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-13 23:30:13
+perform clean
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-13 23:30:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-14 00:25:12
+web mvc finder add --class ~.web.AssociateController --formBackingType ~.entity.Associate
+web mvc finder all
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-14 00:27:57
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-14 00:49:00
+web mvc controller --class ~.web.RosterController
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-14 01:07:02
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-14 02:52:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-14 02:55:46
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-14 12:11:52
+pgp automatic trust
+// [failed] addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 01
+pgp automatic trust
+pgp automatic trust
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 01
+pgp automatic trust
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-14 12:26:45
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-14 23:54:45
+hint
+pgp automatic trust
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-15 00:08:16
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-15 00:11:08
+pgp automatic trust
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon list 
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 28
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-15 00:37:29
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-15 00:44:25
+pgp list trusted keys
+pgp refresh all
+pgp refresh all
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 01
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-15 00:59:08
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-15 22:26:27
+perform package
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-15 22:27:41
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-16 22:47:58
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-16 23:59:39
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-17 23:58:13
+selenium test --controller ~.web.AssociateController
+selenium test --controller ~.web.SowController
+selenium test --controller ~.web.SowAllocationController
+selenium test --controller ~.web.RateController
+selenium test --controller ~.web.ProjectAllocationController
+selenium test --controller ~.web.ProjectRoleController
+selenium test --controller ~.web.ProjectController
+selenium test --controller ~.web.SkillController
+selenium test --controller ~.web.ProjectGroupController
+selenium test --controller ~.web.LocationController
+selenium test --controller ~.web.TuLeadController
+selenium test --controller ~.web.ProjectTypeController
+selenium test --controller ~.web.FinCtrlNumController
+perform tests
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-18 00:02:29
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-18 00:02:36
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-18 00:02:57
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-02 23:08:17
+database properties list
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-02 23:08:48
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-06 00:05:05
+focus --class ~.entity.Associate
+finder list 
+finder add findAssociatesByEidEquals
+focus --class ~.entity.Sow
+finder list 
+finder add findSowsBySowNumEquals
+focus --class ~.entity.mstr.Location
+finder list 
+finder add findLocationsByLocationEquals
+focus --class ~.entity.mstr.Skill
+finder list 
+finder add findSkillsBySkillNameEquals
+focus --class ~.entity.mstr.ProjectRole
+finder list 
+finder add findProjectRolesByRoleNameEquals
+focus --class ~.entity.mstr.Skill
+finder list 
+focus --class ~.entity.TuLead
+finder list 
+finder add findTuLeadsByNameEquals
+focus --class ~.entity.Project
+finder list 
+finder add findProjectsByNameEquals
+focus --class ~.entity.ProjectGroup
+finder list 
+finder add findProjectGroupsByNameEquals
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-06 01:46:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-06 11:14:06
+dependency add --groupId org.apache.poi --artifactId poi --version 3.9
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-06 12:00:40
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-06 23:00:52
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-06 23:01:12
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-06 23:36:24
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-06 23:41:32
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-07 00:05:31
+focus --class ~.web.RosterController
+web mvc view --viewName upload --path /roster/upload --title "Upload Roster"
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-07 00:18:27
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-16 21:51:15
+hint
+finder list --class ~.entity.Associate
+finder add findAssociatesByEmpIdLike
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-16 22:10:42
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-16 22:25:23
+focus --class ~.entity.Associate
+finder add findAssociatesByEmpIdEquals
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-16 22:35:03
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-17 00:28:08
+focus --class ~.entity.mstr.ProjectType
+finder list 
+finder add findProjectTypesByTypeEquals
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-17 00:32:30
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-19 20:26:53
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-19 22:17:11
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-20 00:18:30
+focus --class ~.entity.mstr.Rate
+finder list 
+finder add findRateByNameEquals
+finder add findRatesByNameEquals
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-20 00:25:19
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-20 12:56:30
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-20 14:40:32
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-26 13:55:20
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-26 14:10:22
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-27 00:02:02
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-27 02:13:16

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_ProjectAllocation" object="${projectallocation}" path="/projectallocations" z="wUqSKLdW3hKvXO4H0MJPGNRHTzU=">
+        <field:display field="associate" id="s_com_tuc_capacity_entity_ProjectAllocation_associate" object="${projectallocation}" z="+7DJaPbnKI1nFTTwngp+Hx66eAk="/>
+        <field:display field="project" id="s_com_tuc_capacity_entity_ProjectAllocation_project" object="${projectallocation}" z="ZL/U2VjkQL5yCpR3fZmZHzzlHvA="/>
+        <field:display field="rate" id="s_com_tuc_capacity_entity_ProjectAllocation_rate" object="${projectallocation}" z="khERMSwwUP3mXAOTCGAJmtuUnyU="/>
+        <field:display field="location" id="s_com_tuc_capacity_entity_ProjectAllocation_location" object="${projectallocation}" z="AgHbA0UFzrLHq4F4R2C4A/85QBk="/>
+        <field:display date="true" dateTimePattern="${projectAllocation_startdate_date_format}" field="startDate" id="s_com_tuc_capacity_entity_ProjectAllocation_startDate" object="${projectallocation}" z="41UF43KWzx50jp641R6Hwc5TY/E="/>
+        <field:display date="true" dateTimePattern="${projectAllocation_enddate_date_format}" field="endDate" id="s_com_tuc_capacity_entity_ProjectAllocation_endDate" object="${projectallocation}" z="yvLF5kkAyyDnP5p6aH2OK/StK7I="/>
+        <field:display field="prjRole" id="s_com_tuc_capacity_entity_ProjectAllocation_prjRole" object="${projectallocation}" z="H1sdY9xBIJU4Xg9+olPzSM2ul+w="/>
+    </page:show>
+</div>

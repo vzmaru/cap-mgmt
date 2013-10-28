@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_ProjectGroup" object="${projectgroup}" path="/projectgroups" z="QRDJ3ftrAUsyxgsx7HjKz8CSl0g=">
+        <field:display field="name" id="s_com_tuc_capacity_entity_ProjectGroup_name" object="${projectgroup}" z="iYAx/flE8kQbbSAQ99b5krXYbEQ="/>
+        <field:display field="lead" id="s_com_tuc_capacity_entity_ProjectGroup_lead" object="${projectgroup}" z="q2RIkJ38prEUIeCx9poBGRvnmgQ="/>
+    </page:show>
+</div>

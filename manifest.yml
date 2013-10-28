@@ -1,0 +1,17 @@
+--- 
+applications: 
+  target/cap-mgmt-0.1.0.BUILD-SNAPSHOT.war: 
+    instances: 1
+    name: cap-mgmt
+    infra: aws
+    url: ${name}.${target-base}
+    services: 
+      mysql-d6c8e: 
+        type: mysql
+    framework: 
+      name: spring
+      info: 
+        description: Java SpringSource Spring Application
+        mem: 512M
+        exec: 
+    mem: 512M

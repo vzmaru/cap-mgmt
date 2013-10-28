@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tuc_capacity_entity_Project" object="${project}" path="/projects" z="zL5jG/hvDmHSCEUIDpPLk3cDyHc=">
+        <field:display field="name" id="s_com_tuc_capacity_entity_Project_name" object="${project}" z="2Zcv3X2KFwtCmxHY7k56quHGs5A="/>
+        <field:display field="prjGroup" id="s_com_tuc_capacity_entity_Project_prjGroup" object="${project}" z="rT82as8Ptj4dzv7mFkdqULCT5Hk="/>
+        <field:display field="lead" id="s_com_tuc_capacity_entity_Project_lead" object="${project}" z="HE0PO84OT2XQokh4vNnVjB4beKw="/>
+        <field:display field="subLead" id="s_com_tuc_capacity_entity_Project_subLead" object="${project}" z="Kf+ewXDdkk/KYWFViq+CSKCBuSQ="/>
+        <field:display field="type" id="s_com_tuc_capacity_entity_Project_type" object="${project}" z="0/UOxhdqXVHcVIJzg3gGPD8Wisw="/>
+        <field:display field="manager" id="s_com_tuc_capacity_entity_Project_manager" object="${project}" z="k18G/y/Ce7+UsNh4Oq3HIpPTcqY="/>
+    </page:show>
+</div>
